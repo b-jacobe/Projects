@@ -74,6 +74,11 @@ font-size: 4rem;
 text-align: center;
 }
 
+.project-section-header{
+font-size: 3rem;
+text-align: center;
+}
+
 .welcome-section{
 display: flex;
 flex-direction: column;
