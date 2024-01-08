@@ -36,6 +36,18 @@ label {
   margin: 0.5rem 0;
 }
 
+legend {
+  padding: 1em 0 0 0;
+  margin-bottom: -1em;
+}
+.checkbox-service {
+  margin: 0.5em 0 0 0;
+}
+
+input[type="checkbox"] {
+  margin-top: 0.5em;
+}
+
 input, textarea, select {
   margin: 10px 0 0 0;
   width: 100%;
