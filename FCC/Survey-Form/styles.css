@@ -47,6 +47,7 @@ input, textarea, select {
   width: unset;
   margin: 0 0.5em 0 0;
   vertical-align: middle;
+  display: inline;
 }
 
 input[type="submit"] {
@@ -57,8 +58,4 @@ input[type="submit"] {
   font-size: 1.1rem;
   border-color: white;
   min-width: 300px;
-}
-
-.inline{
-  display: inline; 
 }
