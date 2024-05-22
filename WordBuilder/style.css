@@ -1,0 +1,50 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: monospace;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.word-body {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+  width: 500px;
+  height: 50vh;
+  background-color: #777;
+  padding: 10px;
+}
+
+.button {
+  padding: 20px;
+  background-color: #333;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #aaa;
+}
+
+.button-space {
+  grid-column: span 3;
+}
+
+.word-output {
+  grid-column: span 5;
+  height: 45px;
+  padding: 10px 20px;
+  font-size: 2em;
+  text-align: left;
+  border: none;
+  color: #fff;
+  background: #444;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
